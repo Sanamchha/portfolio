@@ -1,0 +1,75 @@
+---
+import projects from '../data/projects.json';
+---
+
+<section id="projects" class="py-20 bg-navy-900/30">
+  <div class="section-container">
+    <div class="animate-on-scroll">
+      <h2 class="section-heading">Featured Work</h2>
+      <p class="section-subheading">Professional case studies from healthcare analytics automation</p>
+    </div>
+
+    <!-- Featured case studies -->
+    <div class="mt-12 grid gap-8 lg:grid-cols-3">
+      {
+        projects.featured.map((project) => (
+          <article class="card animate-on-scroll flex flex-col">
+            <h3 class="text-lg font-semibold text-white">{project.title}</h3>
+            <p class="mt-1 text-sm text-accent">{project.role}</p>
+
+            <div class="mt-4 flex flex-wrap gap-1.5">
+              {project.stack.map((tech) => (
+                <span class="rounded bg-navy-800 px-2 py-0.5 text-xs text-gray-400">{tech}</span>
+              ))}
+            </div>
+
+            <div class="mt-4 flex-grow">
+              <h4 class="mb-2 text-xs font-semibold uppercase tracking-wider text-gray-500">Highlights</h4>
+              <ul class="space-y-1.5" role="list">
+                {project.highlights.map((item) => (
+                  <li class="text-sm text-gray-300">• {item}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div class="mt-4 border-t border-navy-700 pt-4">
+              <h4 class="mb-2 text-xs font-semibold uppercase tracking-wider text-gray-500">Outcomes</h4>
+              <ul class="space-y-1.5" role="list">
+                {project.outcomes.map((item) => (
+                  <li class="flex gap-2 text-sm text-gray-300">
+                    <svg class="mt-0.5 h-4 w-4 flex-shrink-0 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+
+    <!-- Other projects -->
+    <div class="mt-16 animate-on-scroll">
+      <h3 class="text-xl font-semibold text-white">Other Projects</h3>
+      <p class="mt-1 text-sm text-gray-500">Academic and personal work</p>
+
+      <div class="mt-6 grid gap-4 sm:grid-cols-2">
+        {
+          projects.other.map((project) => (
+            <div class="rounded-lg border border-navy-700/50 bg-navy-900/40 p-4">
+              <h4 class="font-medium text-gray-200">{project.title}</h4>
+              <div class="mt-2 flex flex-wrap gap-1.5">
+                {project.stack.map((tech) => (
+                  <span class="rounded bg-navy-800 px-2 py-0.5 text-xs text-gray-500">{tech}</span>
+                ))}
+              </div>
+              <p class="mt-2 text-sm text-gray-400">{project.description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,75 @@
+[
+  {
+    "company": "IQVIA",
+    "industry": "Healthcare Analytics",
+    "location": "Hybrid | Nepal",
+    "role": "Software QA Engineer 2",
+    "period": "Oct 2025 – Present",
+    "highlights": [
+      "Support project-level automation across healthcare analytics QA teams following org-wide Katalon COE transition",
+      "Bridge automation script writers and Katalon support: troubleshoot issues, develop custom keywords, escalate critical platform defects",
+      "Complete migration of remaining legacy automation jobs; promote reusable patterns across projects",
+      "Explore AI tooling (e.g. Cursor AI) to improve automation productivity and test maintenance"
+    ]
+  },
+  {
+    "company": "Cedar Gate Technologies",
+    "industry": "Healthcare Analytics",
+    "location": "Full-time | Hybrid | Nepal",
+    "role": "Senior Software QA Automation Engineer",
+    "period": "Jan 2025 – Oct 2025",
+    "highlights": [
+      "Led temporary Katalon Automation Center of Excellence (COE) team after successful platform migration",
+      "Owned org-wide enablement: training manual QA teams, workflow documentation, and shared multi-project Katalon architecture",
+      "Drove completion of migration scope: scripts, scheduling, reporting, and pre/post-migration validation"
+    ]
+  },
+  {
+    "company": "Cedar Gate Technologies",
+    "industry": "Healthcare Analytics",
+    "location": "Full-time | Hybrid | Nepal",
+    "role": "Software QA Automation Engineer — Team Lead",
+    "period": "Jun 2023 – Jan 2025",
+    "note": "Team Lead: Aug 2024 – Jan 2025",
+    "highlights": [
+      "Maintained in-house automation framework; supported users, managed server configs, driver updates, and cron-scheduled test runs",
+      "Delivered major framework enhancements: parallel execution, re-run failed tests, and manual run control",
+      "Evaluated automation tools; led technical direction and execution of legacy-to-Katalon migration",
+      "As Team Lead: sprint task allocation, cross-team coordination, and adoption experiments for internal projects"
+    ]
+  },
+  {
+    "company": "Cedar Gate Technologies",
+    "industry": "Healthcare Analytics",
+    "location": "Full-time | Hybrid | Nepal",
+    "role": "Software QA Engineer",
+    "period": "Dec 2022 – Jun 2023",
+    "highlights": [
+      "Regression and feature testing; mentored new hires on application domain and team STLC practices",
+      "Selected for internal automation track; supported API testing (Postman) and AWS-based test/log analysis (S3, CloudWatch)"
+    ]
+  },
+  {
+    "company": "Cedar Gate Technologies",
+    "industry": "Healthcare Analytics",
+    "location": "Full-time | Hybrid | Nepal",
+    "role": "Associate Software QA Engineer",
+    "period": "Dec 2021 – Dec 2022",
+    "highlights": [
+      "Participated in feature discussions with developers and requirement reviews with BAs and PMs",
+      "Created test documentation; performed monthly regression; managed defect lifecycle in Jira",
+      "Built healthcare analytics domain knowledge rapidly after mentor departure"
+    ]
+  },
+  {
+    "company": "Cloud Factory",
+    "industry": "Data Analytics",
+    "location": "",
+    "role": "Data Analytics Associate",
+    "period": "Dec 2020 – Nov 2021",
+    "highlights": [
+      "Supported data analytics workflows and reporting tasks in a professional services environment",
+      "Gained early experience in data handling and analytical problem-solving before transitioning to software QA"
+    ]
+  }
+]

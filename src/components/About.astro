@@ -1,0 +1,23 @@
+---
+import profile from '../data/profile.json';
+---
+
+<section id="about" class="py-20">
+  <div class="section-container">
+    <div class="animate-on-scroll">
+      <h2 class="section-heading">About</h2>
+      <p class="section-subheading">Healthcare analytics QA automation professional</p>
+    </div>
+
+    <div class="mt-12 grid gap-8 lg:grid-cols-2">
+      <div class="card animate-on-scroll">
+        <h3 class="mb-4 text-lg font-semibold text-accent">Professional Summary</h3>
+        <p class="leading-relaxed text-gray-300">{profile.summary}</p>
+      </div>
+      <div class="card animate-on-scroll">
+        <h3 class="mb-4 text-lg font-semibold text-accent">Career Objective</h3>
+        <p class="leading-relaxed text-gray-300">{profile.careerObjective}</p>
+      </div>
+    </div>
+  </div>
+</section>

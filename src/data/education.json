@@ -1,0 +1,13 @@
+{
+  "degree": "Bachelor of Engineering (B.E.), Computer Engineering",
+  "institution": "Khwopa Engineering College, Purbanchal University",
+  "period": "2016 – 2021",
+  "training": [
+    { "name": "Selenium with Python", "provider": "Extra class (college)", "year": "2018" },
+    { "name": "MySQL / Oracle", "provider": "Extra class (college)", "year": "2018" },
+    { "name": "TensorFlow & Neural Networks", "provider": "Extra class (college)", "year": "2018" },
+    { "name": "Deep Learning (48 hrs)", "provider": "Extra class (college)", "year": "2020" },
+    { "name": "Python & Django Framework", "provider": "Extra class (college)", "year": "2020" },
+    { "name": "Mobile App Development (Flutter)", "provider": "Self-learned", "year": "2020" }
+  ]
+}

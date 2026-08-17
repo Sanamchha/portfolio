@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Automation",
+    "skills": ["Katalon Studio", "Selenium", "TestNG", "Cucumber/BDD", "Custom Keyword Development"]
+  },
+  {
+    "category": "Languages",
+    "skills": ["Java", "Python", "Groovy"]
+  },
+  {
+    "category": "API & Testing",
+    "skills": ["Postman", "Functional Testing", "Regression Testing", "Integration Testing", "API Testing", "UAT"]
+  },
+  {
+    "category": "Tools",
+    "skills": ["Jira", "Git", "GitHub Actions", "GitLab CI", "Bitbucket Pipelines"]
+  },
+  {
+    "category": "Cloud & Data",
+    "skills": ["AWS (S3, CloudWatch, Lambda, SQS, SNS, EC2)", "MySQL", "MongoDB"]
+  },
+  {
+    "category": "Leadership",
+    "skills": ["Team Lead Experience", "Sprint Delegation", "Mentorship", "Handover & Training Sessions"]
+  },
+  {
+    "category": "Emerging",
+    "skills": ["AI-assisted Automation Workflows", "Cursor AI"]
+  }
+]

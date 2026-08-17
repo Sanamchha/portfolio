@@ -1,0 +1,71 @@
+{
+  "featured": [
+    {
+      "title": "Legacy-to-Katalon Enterprise Migration",
+      "role": "Team Lead / Senior Automation Engineer",
+      "stack": ["Katalon Studio", "Selenium", "Java/Groovy", "Jenkins/cron", "Git"],
+      "highlights": [
+        "Org-wide migration from legacy in-house framework to Katalon Studio",
+        "Developed custom keywords and standardized multi-project architecture",
+        "Implemented scheduling, reporting, and pre/post-migration validation"
+      ],
+      "outcomes": [
+        "Reduced manual regression effort across multiple healthcare analytics projects",
+        "Improved execution reliability with standardized test patterns",
+        "Established reusable architecture adopted org-wide"
+      ]
+    },
+    {
+      "title": "Automation Framework Enhancements",
+      "role": "Automation Engineer / Team Lead",
+      "stack": ["Custom In-house Framework", "Parallel Execution", "Selenium", "Java/Groovy", "Cron Jobs"],
+      "highlights": [
+        "Server config management and driver update automation",
+        "Parallel test execution and failed-test re-run capabilities",
+        "Manual run controls and cron-scheduled nightly test runs"
+      ],
+      "outcomes": [
+        "Faster feedback cycles with parallel execution",
+        "More stable nightly runs with automated re-run logic",
+        "Better developer/QA collaboration through manual run controls"
+      ]
+    },
+    {
+      "title": "Katalon COE & Team Enablement",
+      "role": "Temporary COE Lead",
+      "stack": ["Katalon Studio", "Custom Keywords", "Documentation", "Training Programs"],
+      "highlights": [
+        "Trained manual QA teams on Katalon workflows and best practices",
+        "Created shared architecture documentation and escalation processes",
+        "Escalated critical platform defects to vendor support"
+      ],
+      "outcomes": [
+        "Accelerated Katalon adoption across manual QA teams",
+        "Reusable patterns deployed across multiple projects",
+        "Smoother handovers with comprehensive documentation"
+      ]
+    }
+  ],
+  "other": [
+    {
+      "title": "EPL Result Prediction",
+      "stack": ["Python", "Pandas", "Keras", "TensorFlow"],
+      "description": "Machine learning model for predicting English Premier League match outcomes."
+    },
+    {
+      "title": "E-BloodBank",
+      "stack": ["Flutter", "Python", "SQLite"],
+      "description": "Blood bank management application with donor and inventory tracking."
+    },
+    {
+      "title": "Mobile Store Management System",
+      "stack": ["C/C++"],
+      "description": "Academic project for inventory and sales management."
+    },
+    {
+      "title": "Online Auction",
+      "stack": ["PHP", "MySQL"],
+      "description": "Academic web application for online bidding and auction management."
+    }
+  ]
+}
