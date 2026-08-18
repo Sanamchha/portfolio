@@ -43,18 +43,38 @@ public/Sanam_Suwal_Senior_QA_Automation_CV_2026.pdf
 
 Update the `cvPath` field in `src/data/profile.json` if the filename changes.
 
-## Deployment
+## Deployment (Cloudflare Pages)
 
-Deployed via Cloudflare Pages from the GitHub repo. Pushes to `main` trigger automatic builds.
+Connected to GitHub: **Sanamchha/portfolio** — pushes to `main` auto-deploy.
 
-### DNS Records (Cloudflare Pages)
+### Cloudflare Pages build settings
 
-| Type | Name | Content |
+| Setting | Value |
+|---------|-------|
+| Production branch | `main` |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Node.js version | `22` |
+
+### Custom domains
+
+Add in Cloudflare Pages → your project → **Custom domains**:
+
+- `sanamsuwal.com.np`
+- `www.sanamsuwal.com.np`
+
+### DNS (Mercantile / .np registrar)
+
+**Recommended:** Point domain nameservers to Cloudflare (Cloudflare dashboard gives you two NS records). Then custom domains work automatically with HTTPS.
+
+**If keeping Mercantile DNS only:**
+
+| Type | Name | Value |
 |------|------|---------|
-| CNAME | `@` | `<your-pages-project>.pages.dev` |
-| CNAME | `www` | `<your-pages-project>.pages.dev` |
+| CNAME | `www` | `<project-name>.pages.dev` |
+| CNAME | `@` | `<project-name>.pages.dev` |
 
-Or if using Cloudflare as DNS proxy, add the custom domain in the Cloudflare Pages dashboard.
+Replace `<project-name>` with your Pages subdomain after the first deploy.
 
 ## Project Structure
 
